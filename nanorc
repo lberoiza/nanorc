@@ -1,3 +1,32 @@
+# Extra Config for nano
+# for more commands 'man nanorc'
+
+# Show current position of the cursor
+set const 
+
+# Tabsize
+set tabsize 2
+
+# Convert tabs to spaces
+set tabstospaces
+
+# Titlecolor (bar,font)
+set titlecolor white,blue
+
+# Activate mouse
+set mouse
+
+# Save the cursor position between editing sessions of files
+set positionlog
+
+
+# Columns with linenumber
+#set fill -1
+#set linenumbers
+
+
+# Add Language highlighting for nano
+
 include "~/.nano/apacheconf.nanorc"
 include "~/.nano/arduino.nanorc"
 include "~/.nano/asciidoc.nanorc"
